@@ -1,0 +1,35 @@
+.row {
+	display: flex;
+}
+
+.result {
+	height: 50px;
+	width:  210px;
+	border-radius: 10px;
+}
+
+.btn {
+	width: 48px;
+	height: 48px;
+	margin: 3px;
+	color: white;
+	background-color: #ffd700;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn:active {
+	background-color: #ffd700;
+}
+
+.result {
+	color: #ffa600;
+}
+
+.result:disabled {
+	background-color: white;
+	border: solid 1px #ffe100;
+	font-size: 14px;
+}
